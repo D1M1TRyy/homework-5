@@ -1,0 +1,236 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 11px 50px;
+}
+header nav ul{
+    display: flex;
+}
+header nav ul li{
+    list-style: none;
+}
+header nav ul li a{
+    text-decoration: none;
+    color: #000;
+}
+header nav ul li :not(last-child){
+    margin-right: 52px;  
+}
+header nav .pc a{
+    margin-right: 40px;
+}
+header nav .pc a img{
+    width: 24px;
+    height: 24px;
+}
+header nav .pc img{
+    width: 24px;
+    height: 24px;
+    margin-bottom: 52px;
+    margin-top: 30px;
+}
+.searcher{
+    display: flex;
+    justify-content: space-between;
+    background: #0052CC ;
+}
+.searcher .menu{
+    display: flex;
+    align-items: center;
+}
+.searcher .menu img{
+    width: 34px;
+    height: 34px;
+    margin-right: 30px;
+    margin-left: 52px;
+}
+.searcher .menu p{
+    color: white;
+}
+.searcher .search input{
+    padding: 11px 0;
+    padding-left: 48px;
+    padding-right: 150px;
+    border-radius: 10px;
+}
+.searcher .search{
+    padding: 11px;
+    justify-content: center;
+}
+footer{
+    background: #0052CC;
+}
+footer nav{
+    display: flex;
+    align-content: flex-end;
+    padding-top: 40px;
+}
+footer nav .logo{
+    margin-left: 52px;
+    margin-right: 256px;
+}
+footer nav ul{
+    margin-right: 60px;
+}
+footer nav ul li{
+    list-style: none;
+    padding: 10px 0;
+}
+footer nav ul li a{
+    text-decoration: none;
+    color: #000;
+}
+footer nav ul li :not(:last-child){
+    margin-right: 20px;
+}
+footer nav .search{
+    margin-right: 0;
+    margin-left: 350px;
+}
+footer nav .search input{
+    padding: 11px 30px;
+    padding-right: 50px;
+    border-radius: 10px;
+}
+footer .it{
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+footer .it .img01{
+    margin-left: 52px;
+    padding-top: 20px;
+}
+footer .it .img02{
+    padding-top: 20px;
+}
+footer .it p{
+    padding: 20px;
+}
+.body{
+    background: #F5F5F5;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    padding: 100px 0;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    
+}
+.cards .card1{
+    background: white;
+    padding: 10px 30px;
+}
+.cards .card2{
+    background: white;
+    padding: 10px 30px;
+}
+.cards .card3{
+    background: white;
+    padding: 10px 30px;
+}
+.cards .card4{
+    background: white;
+    filter: drop-shadow (0px 4px 4px rgba(0, 0, 0, 0.25));;
+    padding: 10px 30px;
+    
+}
+.cardstexts{
+    display: flex;
+}
+.cardstexts .cardstext1{
+    display: flex;
+    margin-left: 61px;
+    padding: 10px 0;
+    border-bottom: solid 1px #3F69FF
+}
+.cardstexts .cardstext1 p{
+    margin-left: 110px;
+}
+.cardstexts .cardstext2{
+    display: flex;
+    margin-left: 120px;
+    padding: 10px 0;
+    border-bottom: solid 1px #3F69FF
+}
+.cardstexts .cardstext2 p{
+    margin-left: 102px;
+}
+.cardstexts .cardstext3{
+    display: flex;
+    margin-left: 120px;
+    padding: 10px 0;
+    border-bottom: solid 1px #3F69FF
+}
+.cardstexts .cardstext3 p{
+    margin-left: 142px;
+}
+.cardstexts .cardstext4{
+    display: flex;
+    margin-left: 120px;
+    padding: 10px 0;
+    border-bottom: solid 1px #3F69FF
+}
+.cardstexts .cardstext4 .p1{
+    color: #BD6161;
+    text-decoration-line: line-through;
+    margin-left: 70px;
+    margin-right: 27px;
+}
+.cardstexts2{
+    display: flex;
+    color: #6A6A6A;
+    padding: 10px 0;
+    padding-bottom: 400px;
+}
+.cardstexts2 .cardstext5{
+    display: flex;
+}
+.cardstexts2 .cardstext5 p{
+    margin-left: 61px;
+    margin-right: 90px;
+}
+.cardstexts2 .cardstext5 a{
+    color: #000;
+}
+.cardstexts2 .cardstext6{
+    display: flex;
+}
+.cardstexts2 .cardstext6 p{
+    margin-left: 121px;
+    margin-right: 94px;
+}
+.cardstexts2 .cardstext6 a{
+    color: #000;
+}
+.cardstexts2 .cardstext7{
+    display: flex;
+}
+.cardstexts2 .cardstext7 p{
+    margin-left: 121px;
+    margin-right: 94px;
+}
+.cardstexts2 .cardstext7 a{
+    color: #000;
+}
+.cardstexts2 .cardstext8{
+    display: flex;
+}
+.cardstexts2 .cardstext8 p{
+    margin-left: 121px;
+    margin-right: 94px;
+}
+.cardstexts2 .cardstext8 a{
+    color: #000;
+}
+
